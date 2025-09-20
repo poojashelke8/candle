@@ -57,20 +57,20 @@ const Home = () => {
         <div className="cards">
          
           <div className="candle_card">
-            <img src={img3} className="card_img" />
+            <img src={img3} className="card_img" alt="candle"  />
            
           </div>
            <div className="candle_card">
-            <img src={img4} className="card_img" />
+            <img src={img4} className="card_img" alt="candle"  />
            
           </div>
            
            <div className="candle_card">
-            <img src={img6} className="card_img" />
+            <img src={img6} className="card_img" alt="candle"  />
            
           </div>
            <div className="candle_card">
-            <img src={img7} className="card_img" />
+            <img src={img7} className="card_img"  alt="candle" />
            
           </div>
         
