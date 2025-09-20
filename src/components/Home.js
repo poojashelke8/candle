@@ -1,7 +1,10 @@
-import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import img1 from "../assets/img1.jpeg"
+// import React from "react";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaWhatsapp } from "react-icons/fa";
+// import img1 from "../assets/img1.jpeg"
+import candle from "../assets/candle.jpg"
+import scented_img from "../assets/scented.png"
+
 
 const Home = () => {
 //   const instagramUsername = "the_fame_candles"; // replace with your ID, e.g. "instagramUser"
@@ -24,7 +27,7 @@ const Home = () => {
 
         <div className="candle_img">
           <img
-            src={img1}
+            src={candle}
             className="candle1"
             alt="candle"
           />
@@ -37,6 +40,12 @@ const Home = () => {
           </p>
         </div>
         </div>
+         <div className="home_3">
+        <img src={scented_img} className="nature_img" alt="candle" />
+        <p className="nature_text">
+          Be Like a Candle,give your warmth and light to others
+        </p>
+      </div>
       
      
     </div>
