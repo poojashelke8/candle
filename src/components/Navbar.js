@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../components/styles/nav.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
