@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   const openInstagram = () => {
-    window.open(`https://www.instagram.com/${instagramUsername}/`, "_blank");
+    window.open("https://www.instagram.com/the_fame_candle?igsh=a3lkdWJkeWtyem1l");
   };
   return (
     <div className="home_main">

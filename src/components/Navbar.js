@@ -17,7 +17,8 @@ const Navbar = () => {
   };
 
   const openInstagram = () => {
-    window.open(`https://www.instagram.com/${instagramUsername}/`, "_blank");
+    window.open("https://www.instagram.com/the_fame_candle?igsh=a3lkdWJkeWtyem1l");
+
   };
   return (
     // <div className="p-[20px] h-24 w-full flex justify-end  md:w-[70%] ">
