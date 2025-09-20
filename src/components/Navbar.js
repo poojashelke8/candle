@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 // import {}
 
 const Navbar = () => {
-  const instagramUsername = "the_fame_candles"; // replace with your ID, e.g. "instagramUser"
+//   const instagramUsername = "the_fame_candles"; // replace with your ID, e.g. "instagramUser"
   const whatsappNumber = "917249571525"; // international format, no + and no spaces
   const prefilledMessage = "Hello, I found you via your site.";
 
