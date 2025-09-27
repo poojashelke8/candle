@@ -8,7 +8,11 @@ import img7 from "../assets/img7.jpg"
 
 
 
-import candle from "../assets/candle.jpg"
+import d1 from "../assets/d1.jpg"
+import d2 from "../assets/d2.jpg"
+import d3 from "../assets/d3.jpg"
+
+
 import scented_img from "../assets/scented.png"
 
 
@@ -33,7 +37,17 @@ const Home = () => {
 
         <div className="candle_img">
           <img
-            src={candle}
+            src={d1}
+            className="candle1"
+            alt="candle"
+          />
+           <img
+            src={d2}
+            className="candle1"
+            alt="candle"
+          />
+           <img
+            src={d3}
             className="candle1"
             alt="candle"
           />
@@ -49,11 +63,40 @@ const Home = () => {
         <div className="home_3">
             <img src={scented_img} className="nature_img" alt="candle" />
         <p className="nature_text">
-          Be Like a Candle,give your warmth and light to others
+         Light Beyond Darkness, Joy Beyond Boundaries
         </p>
       </div>
+      <div className="features_main">
+          {/* <p className="heading_1"style={{textAlign:"start"}}>Best Service Features</p> */}
+        <div className="features_2">
+          <div className="service" >
+            <p className="heading_3" >Natural and Sustainable</p>
+            <p className="heading_2">
+              We believe in quality and environmental sustainability.
+            </p>
+            <p className="heading_2">
+              Our candlesare made from non-toxic material.
+            </p>
+          </div>
+          <div className="service" >
+            <p className="heading_3">Fast Shipping</p>
+            <p className="heading_2">
+              We understand how important it is to receive products quickly.
+              </p>
+              <p className="heading_2">
+              With our fats delivery service
+            </p>
+          </div>
+          <div className="service">
+            <p className="heading_3">Personal Assistance</p>
+            <p className="heading_2">
+              We are always ready to assist you with friendliness and care.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="products">
-        <p className="heading_1">Our Products</p>
+        <p className="heading_1">Collection</p>
         <div className="cards">
          
           <div className="candle_card">
@@ -75,17 +118,10 @@ const Home = () => {
           </div>
         
         </div>
-      </div>
+      {/* </div>
         <div className="features">
-        <div className="features_1">
-          <p className="heading_1"style={{textAlign:"start"}}>Best Service Features</p>
-          <p className="heading_2">
-            We offer a variety of services designed to enhance your candle
-            experience
-          </p>
-          <button className="shop_btn">Dm for Shop</button>
-        </div>
         <div className="features_2">
+          <p className="heading_1"style={{textAlign:"start"}}>Best Service Features</p>
           <div className="service" style={{textAlign:"start"}}>
             <p className="heading_3" >Natural and Sustainable</p>
             <p className="heading_2">
@@ -107,7 +143,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="footer">
         <div className="footer_head"style={{textAlign:"start"}}>
           <p className="heading_1">Fame Candles</p>
@@ -115,9 +151,10 @@ const Home = () => {
             We are committed to provide to providing an exceptional scented
             candle shopping experience with fast and friendly service.
           </p>
+          
         </div>
         <div className="connect" style={{textAlign:"start"}}>
-          <p className="heading_3">Connect with us</p>
+          <p className="heading_3">Connect with us on</p>
           <div className="socials">
             <span onClick={openInstagram} style={{ cursor: "pointer" }}>
               <FaInstagram size={18} />
@@ -130,11 +167,13 @@ const Home = () => {
               <FaWhatsapp size={18} />
             </span>
         
-          </div>
-          <p className="heading_3">Contact</p>
+          {/* <p className="heading_3">Contact</p> */}
           <p className="heading_2"> 7249571525</p>
           <p className="heading_2">famecandle@gmail.com</p>
+          </div>
         </div>
+        </div>
+        
       </div>
       
      

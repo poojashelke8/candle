@@ -11,6 +11,7 @@
     padding-right: 15px;
     justify-content:space-between;
     align-items: center;
+    padding: 5px;
     /* gap:100px */
 }
 .heading_1{
@@ -18,9 +19,17 @@
   font-weight: 700;
   font-family: "Cormorant Garamond", serif;
 }
+.candle_img{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center ;
+  gap:10px
+
+}
 .candle1{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     /* position:relative */
 }
 .home_2{
@@ -31,23 +40,22 @@
     align-items: center;
     position: relative;
 }
-.home_title{
-    width: 700px;
-  height: 300px;
-  background-color: #daf1a2;
+.home_title {
+  width: 600px;
+  height: 200px;
+  background-color: rgba(218, 241, 162, 0.6); 
   display: flex;
+  color: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15px;
   text-align: center;
   position: absolute;
-  left:40%;
-  top:25%
-  
-  /* color :white */
-/*  */
+  left: 27.5%;
+  top: 50%;
 }
+
 .home_3 {
   width: 100%;
   display: flex;
@@ -66,8 +74,8 @@
 .nature_text {
   position: absolute;
   /* width: 700px; */
-  word-spacing: 5px;
-  top: 30%;
+  word-spacing: 10px;
+  top: 20%;
   font-size: 30px;
   font-weight: 500;
   color: black;
@@ -81,6 +89,8 @@
   /* width: 100%; */
   display: flex;
   justify-content: center;
+  /* background-color: rgba(255, 215, 0, 0.3); Gold with 30% opacity - softer fade */
+
   gap: 15px;
   flex-wrap: wrap;
   margin: 15px;
@@ -90,10 +100,19 @@
   height: 300px;
   border-radius: 15px;
 }
+.features_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 .features {
-  /* width: 100%; */
+  width: 600px;
   height: 300px;
-  background-color: #FFE8CD;
+  /* background-color: #FFE8CD; */
+  /* background-color: rgba(218, 241, 162, 0.6);  */
+
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -118,14 +137,16 @@
 }
 
 .features_2 {
+  /* width: 400px; */
   display: flex;
-  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 15px;
-  flex-direction: column;
+  /* flex-direction: column; */
   /* padding: 20px; */
 }
 .service {
-  /* padding: 15px; */
+  padding: 5px;
 }
 
 .heading_1 {
@@ -149,7 +170,9 @@
 
 .footer {
   /* width: 100%; */
-  background-color: #FFF2EB;
+  /* background-color: #FFF2EB; */
+  background-color: rgba(255, 215, 0, 0.3); /* Gold with 30% opacity - softer fade */
+
   border-radius: 20px;
   padding: 10px;
   margin-top: 20px;
@@ -169,6 +192,8 @@
 }
 .socials {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -193,7 +218,7 @@
     align-items: center;
     text-align: center;
     /* margin-top: -90px; */
-    top: 60%;
+    top: 50%;
     left:14%;
   }
   .nature_text {
@@ -209,11 +234,11 @@
     justify-content: center;
   }
   .home_3{
-    margin-top: 200px;
+    margin-top: 650px;
   }
-  .products {
-    margin-top: 130px;
-  }
+  /* .products {
+    margin-top: 80px;
+  } */
   .cards {
     display: flex;
     flex-direction: column;
@@ -226,6 +251,7 @@
     height: 400px;
   }
   .features_2 {
+    margin-top: 80px;
     gap: 5px;
   }
   .service {

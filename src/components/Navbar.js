@@ -2,7 +2,7 @@
 import "../components/styles/nav.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-// import {}
+import logo2 from "../assets/logo2.jpg"
 
 const Navbar = () => {
 //   const instagramUsername = "the_fame_candles"; // replace with your ID, e.g. "instagramUser"
@@ -25,7 +25,8 @@ const Navbar = () => {
     <div className="nav_main" >
       {/* <div className="flex justify-between w-[60%] "> */}
       <div className="nav_content">
-        <p className="heading_1">FAME</p>
+        {/* <p className="heading_1">FAME CANDLE</p> */}
+        <img src={logo2} style={{height:"30px",width:"100px"}}/>
         <div className="flex gap-[10px]">
           <span onClick={openInstagram} style={{ cursor: "pointer" }}>
             <FaInstagram size={18} />
