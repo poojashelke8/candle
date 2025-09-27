@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* <div className="flex justify-between w-[60%] "> */}
       <div className="nav_content">
         {/* <p className="heading_1">FAME CANDLE</p> */}
-        <img src={logo2} style={{height:"30px",width:"100px"}}/>
+        <img src={logo2} alt="logo" style={{height:"30px",width:"100px"}}/>
         <div className="flex gap-[10px]">
           <span onClick={openInstagram} style={{ cursor: "pointer" }}>
             <FaInstagram size={18} />
